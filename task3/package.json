@@ -1,0 +1,16 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tien Nguyen",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "date-fns": "^2.0.0-alpha.25",
+    "xlsx": "^0.14.1"
+  }
+}

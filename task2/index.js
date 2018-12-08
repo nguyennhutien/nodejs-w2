@@ -1,9 +1,10 @@
 const fs = require('fs');
+const path = require('path');
 const numeral = require('numeral');
 const { formatDistance } = require('date-fns');
 const { vi } = require('date-fns/locale');
 
-fs.readFile('./products.json', 'utf8', (err, data) => {
+fs.readFile(`${path.resolve(__dirname, 'products.json')}`, 'utf8', (err, data) => {
   if (err) {
     console.log(err);
     return;
